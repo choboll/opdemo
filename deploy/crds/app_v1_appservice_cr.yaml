@@ -1,7 +1,7 @@
 apiVersion: app.cxx.com/v1
 kind: AppService
 metadata:
-  name: example-appservice
+  name: nginx-app
 spec:
-  # Add fields here
-  size: 3
+  size: 2
+  image: nginx:1.7.9
